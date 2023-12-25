@@ -325,4 +325,4 @@ app.post('/logout', authenticateToken, async (req, res) => {
   })
   .catch((error) => {
     console.log('Error connecting to MongoDB:', error);
-  });g
+  });
